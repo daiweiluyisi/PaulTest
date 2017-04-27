@@ -13,7 +13,7 @@
 		C59796001EB1CA5100625300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59795FE1EB1CA5100625300 /* Main.storyboard */; };
 		C59796021EB1CA5100625300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59796011EB1CA5100625300 /* Assets.xcassets */; };
 		C59796051EB1CA5100625300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59796031EB1CA5100625300 /* LaunchScreen.storyboard */; };
-		C597960F1EB1CA7D00625300 /* BingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C597960E1EB1CA7D00625300 /* BingView.m */; };
+		C59796351EB1CE0100625300 /* TanButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C59796341EB1CE0100625300 /* TanButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		C59796011EB1CA5100625300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59796041EB1CA5100625300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59796061EB1CA5100625300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C597960D1EB1CA7D00625300 /* BingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingView.h; sourceTree = "<group>"; };
-		C597960E1EB1CA7D00625300 /* BingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BingView.m; sourceTree = "<group>"; };
+		C59796331EB1CE0100625300 /* TanButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanButton.h; sourceTree = "<group>"; };
+		C59796341EB1CE0100625300 /* TanButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		C597960C1EB1CA7D00625300 /* PaulTest */ = {
 			isa = PBXGroup;
 			children = (
-				C597960D1EB1CA7D00625300 /* BingView.h */,
-				C597960E1EB1CA7D00625300 /* BingView.m */,
+				C59796331EB1CE0100625300 /* TanButton.h */,
+				C59796341EB1CE0100625300 /* TanButton.m */,
 			);
 			path = PaulTest;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C597960F1EB1CA7D00625300 /* BingView.m in Sources */,
 				C59795FD1EB1CA5100625300 /* ViewController.m in Sources */,
+				C59796351EB1CE0100625300 /* TanButton.m in Sources */,
 				C59795FA1EB1CA5100625300 /* AppDelegate.m in Sources */,
 				C59795F71EB1CA5100625300 /* main.m in Sources */,
 			);
@@ -326,6 +326,7 @@
 				C597960B1EB1CA5100625300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
