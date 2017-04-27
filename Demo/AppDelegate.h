@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  pdfReader
+//  Demo
 //
-//  Created by XuJackie on 15/6/6.
-//  Copyright (c) 2015年 peter. All rights reserved.
+//  Created by 爱车保 on 2017/4/27.
+//  Copyright © 2017年 一个coder. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
