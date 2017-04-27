@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/daiweiluyisi/PaulTest.git", :tag => "#{s.version}" }
   s.source_files  =  "PaulTest/**/*"
-  s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
 
 end
