@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "PaulTest"
-  s.version      = "v1.0"
+  s.version      = "1.0"
   s.summary      = "测试能不能上传"
   s.description  = "this is null program, yes it's my first submit"
   s.homepage     = "https://github.com/daiweiluyisi/PaulTest"
